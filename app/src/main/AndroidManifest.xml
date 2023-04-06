@@ -8,8 +8,8 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/database"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.ШаблонПроектаДокументации"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.MkDocsTmpl"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
