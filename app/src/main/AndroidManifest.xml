@@ -11,9 +11,16 @@
         android:supportsRtl="false"
         android:theme="@style/Theme.MkDocsTmpl"
         tools:targetApi="31">
+
+        <meta-data android:name="android.webkit.WebView.MetricsOptOut"
+            android:value="false"/>
+        <meta-data android:name="android.webkit.WebView.EnableSafeBrowsing"
+            android:value="false" />
+
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
